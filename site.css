@@ -1,3 +1,64 @@
 body {
-    background-color: green;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+header, footer {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 0), rgb(8, 137, 166));
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+main {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+}
+
+.bungee-inline-regular {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.zalando-sans {
+    font-family: "Zalando Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Add a black background color to the top navigation */
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navigation a.active {
+    background-color: #29a3e4;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
 }
