@@ -1,21 +1,26 @@
 body {
     text-align: center;
-    padding: 10px;
-    margin: 10px;
+    padding: 1px;
+    margin: 5px;
 }
 
 header, footer {
     background-image: linear-gradient(to bottom, rgb(255, 255, 0), rgb(8, 137, 166));
     color: white;
     width: 100%;
-    padding: 10px;
+    margin: auto;
+    padding: 5px;
     text-align: center;
     position: relative;
 }
 
 main {
-    background-image: url('background.jpg');
+    background-image: url('/background.jpg');
     background-repeat: no-repeat;
+    font-family: "Zalando Sans";
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
 }
 
 .bungee-inline-regular {
@@ -61,4 +66,19 @@ main {
 
 ul {
     list-style-type: none;
+    background-color: #29a3e4;
+}
+
+h1 {
+    font-family: "Bungee Inline";
+    background-color: #d398d0;
+}
+
+p {
+    background-color: #abc6d5;
+}
+
+form {
+    background-color: #333;
+    color: white;
 }
