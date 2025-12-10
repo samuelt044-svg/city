@@ -118,3 +118,8 @@ img {
 img:hover {
     cursor: url(cursor.cur), pointer;
 }
+
+table, th, td {
+    background: #a8cf46;
+    border: 1px solid;
+}
